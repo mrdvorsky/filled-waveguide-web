@@ -1,5 +1,7 @@
 
+import Complex from "complex";
 import { FilledWaveguideController } from "./filledWaveguideController";
+import { nLayerPlanewave } from "./nLayerFilled";
 import { SvgAndHtml } from "./svgUtilities";
 import { WebglRenderer } from "./webglRenderer";
 
@@ -42,6 +44,8 @@ function animate(timeStamp: number) {
     );
 
     requestAnimationFrame(animate);
+
+    console.log(nLayerPlanewave(10, new Complex("1 + 1i"), new Complex("1 - 1i")));
 }
 
 

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@types/complex": "^3.0.34",
+    "complex": "^3.0.1",
+    "tsify": "^5.0.4"
+  }
+}

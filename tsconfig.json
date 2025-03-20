@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "None",
+        "target": "ES2017",
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "sourceMap": true
+    }
+}

@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    /* max-width: 100vmin; */
     background-color: #f0f0f0;
 }
 
@@ -13,7 +14,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: 5%;
     margin-right: 5%;
+    width: 90%;
     aspect-ratio: 2 / 1;
+    max-height: 40vmin;
 }
 
 #wg_display {
@@ -21,7 +24,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: 5%;
     margin-right: 5%;
+    width: 90%;
     aspect-ratio: 2 / 1;
+    max-height: 40vmin;
 }
 
 #wg_display canvas {
